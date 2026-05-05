@@ -1119,3 +1119,25 @@ html, body {
   50% { transform: translateY(-12px); }
   100% { transform: translateY(0px); }
 }
+
+.evento p {
+  font-size: 14px;
+  text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+.evento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+
+
+
+
+
